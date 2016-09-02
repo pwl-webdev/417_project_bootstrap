@@ -1,0 +1,85 @@
+/* Typography */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url("https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*  layout */
+.navbar{
+	min-height: 60px;
+	background-color: rgb(24,24,24);
+}
+.header-logo{
+	width: 275px;
+	height: 60px;
+	background-color: rgb(255,5,0);
+
+}
+.logo{
+	margin: 14px 0 6px 0;
+	width: 270px;
+	height: 40px;
+	background-image: url("../images/sprite-logo.svg");
+	background-position: 22px 0px;
+	background-size: 442px 178px;
+	display: block;
+	vertical-align: middle;
+}
+.first{
+	margin-left: 10px;
+}
+.leaf{
+	padding-top: 5px;
+	font-family: "Source Sans Pro";
+	letter-spacing: 1.5px;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.nav > li > a {
+	padding: 15px 0 10px 20px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: rgb(230,230,230);
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: rgb(119,119,119);
+}
+.m-expand-search{
+	float: left;
+	width: 46px;
+	height: 60px;
+	background-image: url("../images/sprite.png");
+	background-size: 315px auto;
+	background-position: -17px -13px;
+}
+.navbar-right{
+	float: right;
+	margin: 0;
+}
+#r-nav-sign{
+	box-sizing: border-box;
+	width: 120px;
+	height: 100%;
+	padding: 15px 0 10px 40px;
+	margin: auto;
+	color: white;
+	font-family: "Source Sans Pro";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 30px;
+	border-left: 1px solid rgb(100,100,100);
+	border-bottom: 5px solid rgb(255,5,0);
+}
+.r-nav-geo{
+	background-position: -1px -331px;
+}
