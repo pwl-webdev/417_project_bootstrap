@@ -13,10 +13,20 @@
   src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url("https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2") format("woff2");
   unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-/*  layout */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Playfair Display"), local("PlayfairDisplay-Regular"), url("https://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1Cdhy5e3cTyNKTHXrP9DO-Rc.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*--------------------layout----------------------*/
+/*-----------------header navbar------------------*/
 .navbar{
 	min-height: 60px;
 	background-color: rgb(24,24,24);
+	border-bottom: 1px solid white;
+	box-shadow: rgba(0,0,0,0.25) 0 0 6px;
 }
 .header-logo{
 	width: 275px;
@@ -131,6 +141,132 @@
 #r-nav-subs:hover{
 	opacity: 0.6;
 }
+/*-----------------body------------------*/
+.container-fluid{
+	max-width: 1440px;
+	margin: auto;
+}
+.row{
+	position: relative;
+	top: 60px;
+}
+.col-md-9{
+	background-color: rgb(230,230,200);
+}
+.col-md-3{
+	background-color: rgb(230,200,230);
+	min-height: 500px;
+}
+/*-----------------section 1-------------*/
+.featured img{
+	width: 100%;
+	border-bottom: 5px solid rgb(255,5,0);
+}
+.featured .h3{
+	display: block;
+	color: rgb(255,5,0);
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-decoration-color: rgb(255,5,0);
+}
+.featured .h1{
+	display: block;
+	color: rgb(24,24,24);
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 42px;
+	font-weight: 900;
+	letter-spacing: -0.25px;
+	line-height: 38px;
+	text-transform: uppercase;
+	text-decoration-color: rgb(24,24,24);
+}
+.featured h2{
+	display: block;
+	margin: 10px 0;
+	font-family: "Playfair Display";
+	font-size: 27px;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+	color: rgb(24,24,24);
+	line-height: 32px;
+}
+.featured .h6{
+	display: block;
+	color: rgb(24,24,24);
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: -0.25px;
+	line-height: 38px;
+	text-transform: uppercase;
+	text-decoration-color: rgb(24,24,24);
+}
+.info{
+	padding: 20px 90px;
+	text-align: center;
+}
+.row ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.row li:before {
+    content: "■";
+    color: #00B7FF;
+    margin-right: 5px;
+}
+.row li a{
+	color: rgb(24,24,24);
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	text-decoration-color: rgb(24,24,24);
+}
+.bullet-list{
+	padding: 30px 0;
+}
+.block-title{
+	margin-bottom: 10px;
+	font-family: "Playfair Display";
+	color: rgb(255,5,0);
+	font-size: 19px;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+	line-height: 22px;
+}
+.bullet-list ul{
+    list-style-position: outside;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none;
+}
+.bullet-list li{
+	padding: 15px;
+	float: left;
+}
+.bullet-list li:before {
+	color: rgb(255,5,0);
+	position: relative;
+	margin: 0;
+	left: -15px;
+}
+.bullet-list li div{
+	display: inline;
+}
+.bullet-list li a{
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	color: rgb(24,24,24);
+	text-decoration-color: rgb(24,24,24);
+}
+/*--------------------------------------------*/
 /* Disabling some elements for full width view */
 .mobile-r-nav{
 	display: none;

@@ -33,33 +33,33 @@
 <ul class="most-popular-list"> \
         <li class="item item-1 clearfix"> \
                                   <div class="item-image"> \
-            <a href="http://www.newsweek.com/steven-avery-lawyer-demands-evidence-and-accuses-cops-framing-him-bombshell-493873"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2016/03/25/0408zellner01.jpg" alt="Steven Avery\'s Lawyer Accuses Cops of Framing Him " /></a>          </div> \
+            <a href="http://www.newsweek.com/2016/09/09/donald-trump-will-gut-republican-party-494306.html"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2016/08/24/0909trump01.jpg" alt="Trumpism Versus Republicanism, Explained" /></a>          </div> \
                 <div class="item-link"> \
-          <a href="http://www.newsweek.com/steven-avery-lawyer-demands-evidence-and-accuses-cops-framing-him-bombshell-493873?rel=most_read1">Steven Avery&#039;s Lawyer Accuses Cops of Framing Him </a>        </div> \
+          <a href="http://www.newsweek.com/2016/09/09/donald-trump-will-gut-republican-party-494306.html?rel=most_read1">Trumpism Versus Republicanism, Explained</a>        </div> \
               </li> \
         <li class="item item-2 clearfix"> \
                                   <div class="item-image"> \
-            <a href="http://www.newsweek.com/2016/09/09/donald-trump-will-gut-republican-party-494306.html"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2016/08/24/0909trump01.jpg" alt="Trumpism Versus Republicanism, Explained" /></a>          </div> \
+            <a href="http://www.newsweek.com/2016/09/09/old-clothes-fashion-waste-crisis-494824.html"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2016/08/25/0909oldclothes01.jpg" alt="No One Wants Your Old Clothes" /></a>          </div> \
                 <div class="item-link"> \
-          <a href="http://www.newsweek.com/2016/09/09/donald-trump-will-gut-republican-party-494306.html?rel=most_read2">Trumpism Versus Republicanism, Explained</a>        </div> \
+          <a href="http://www.newsweek.com/2016/09/09/old-clothes-fashion-waste-crisis-494824.html?rel=most_read2">No One Wants Your Old Clothes</a>        </div> \
               </li> \
         <li class="item item-3 clearfix"> \
                                   <div class="item-image"> \
-            <a href="http://www.newsweek.com/2016/09/09/elon-musk-tesla-oil-energy-493905.html"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2016/08/24/0909maneymusk01.jpg" alt="Elon Musk Has a Brilliant Plan to Kill Big Oil" /></a>          </div> \
+            <a href="http://www.newsweek.com/can-anti-inflammatory-drugs-treat-depression-494720"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2015/12/08/1208residencydepression01.jpg" alt="Can Anti-Inflammatory Drugs Treat Depression?" /></a>          </div> \
                 <div class="item-link"> \
-          <a href="http://www.newsweek.com/2016/09/09/elon-musk-tesla-oil-energy-493905.html?rel=most_read3">Elon Musk Has a Brilliant Plan to Kill Big Oil</a>        </div> \
+          <a href="http://www.newsweek.com/can-anti-inflammatory-drugs-treat-depression-494720?rel=most_read3">Can Anti-Inflammatory Drugs Treat Depression?</a>        </div> \
               </li> \
         <li class="item item-4 clearfix"> \
                                   <div class="item-image"> \
-            <a href="http://www.newsweek.com/can-anti-inflammatory-drugs-treat-depression-494720"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2015/12/08/1208residencydepression01.jpg" alt="Can Anti-Inflammatory Drugs Treat Depression?" /></a>          </div> \
+            <a href="http://www.newsweek.com/2016/09/09/japanese-dogfighting-494843.html"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2016/08/25/0909dogs01.jpg" alt="Inside the Brutal Blood Sport of Japanese Dogfighting" /></a>          </div> \
                 <div class="item-link"> \
-          <a href="http://www.newsweek.com/can-anti-inflammatory-drugs-treat-depression-494720?rel=most_read4">Can Anti-Inflammatory Drugs Treat Depression?</a>        </div> \
+          <a href="http://www.newsweek.com/2016/09/09/japanese-dogfighting-494843.html?rel=most_read4">Inside the Brutal Blood Sport of Japanese Dogfighting</a>        </div> \
               </li> \
         <li class="item item-5 clearfix"> \
                                   <div class="item-image"> \
-            <a href="http://www.newsweek.com/2016/09/09/old-clothes-fashion-waste-crisis-494824.html"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2016/08/25/0909oldclothes01.jpg" alt="No One Wants Your Old Clothes" /></a>          </div> \
+            <a href="http://www.newsweek.com/israeli-ethiopian-soldiers-refuse-serve-after-police-chiefs-swipe-community-494926"><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2016/09/01/israeli-ethiopian-soldier.jpg" alt="Israeli Ethiopian Troops Refuse Duty Over Police Bias" /></a>          </div> \
                 <div class="item-link"> \
-          <a href="http://www.newsweek.com/2016/09/09/old-clothes-fashion-waste-crisis-494824.html?rel=most_read5">No One Wants Your Old Clothes</a>        </div> \
+          <a href="http://www.newsweek.com/israeli-ethiopian-soldiers-refuse-serve-after-police-chiefs-swipe-community-494926?rel=most_read5">Israeli Ethiopian Troops Refuse Duty Over Police Bias</a>        </div> \
               </li> \
   </ul> \
  \

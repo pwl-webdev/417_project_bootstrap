@@ -1,4 +1,4 @@
-PianoMedia.template.dataProvider = {"landingPageUrl":1,"newArticlesCount":38};PianoMedia.service_id = "29";
+PianoMedia.template.dataProvider = {"landingPageUrl":1,"newArticlesCount":33};PianoMedia.service_id = "29";
 PianoMedia.article_id = "_";
 PianoMedia.method_verify = true;
 PianoMedia.template.injectResponse('unlogged');
