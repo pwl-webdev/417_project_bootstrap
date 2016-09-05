@@ -393,6 +393,7 @@
 	border-bottom: 1px solid rgb(229, 229, 229);
 }
 /*-----------in the magazine------------------*/
+
 .feature_magazine{
 	padding-top: 30px;
 }
@@ -448,6 +449,99 @@
 }
 .carousel-inner .feature-small{
 	border-top: none;
+}
+.carousel-wrap{
+	overflow: auto;
+}
+/*---------------big shots--------------------*/
+.bigshots{
+	padding: 40px 0;
+	background-color: #282828;
+	display: block;
+}
+.flex-md{
+	display: flex;
+	width: 100%;
+}
+.flex-md-75{
+	width: 75%;
+}
+.order-2{
+	order: 2;
+}
+.flex-md-25{
+	width: 25%;
+}
+.order-1{
+	order: 1;
+}
+.col-bottom{
+	position: relative;
+	min-height: 236px;
+	padding-right: 30px;
+}
+.bigshots-logo{
+	margin-bottom: 40px;
+	max-width: 100%;
+}
+.bigshots-log img{
+	object-fit: contain;
+}
+.bigshots-info{
+	float: right;
+	width: 65%;
+}
+.block-title-2{
+	margin-bottom: 20px;
+	color: #00B7FF;
+	font-family: 'Playfair Display',serif;
+	font-size: 21px;
+	line-height: 21px;
+	letter-spacing: 0.25px;
+}
+.btn-blue{
+	font-family: 'Source Sans Pro',sans-serif;
+	background-color: #00B7FF;
+	font-size: 16px;
+	line-height: 50px;
+	color: white;
+	border-radius: 0;
+}
+.btn-blue:hover{
+	color: white;
+	opacity: 0.6;
+}
+.bullet-blue ul{
+    list-style: none;
+}
+.bullet-blue li:before {
+	list-style-position: outside;
+    content: "■";
+    color: #00B7FF;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.bullet-blue li{
+	margin-top: 20px;
+    padding-bottom: 5px;
+	color: white;
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.bigshots-summary{
+	font-size: 16px;
+	max-height: 80px;
+	color: #999;
+	margin-bottom: 15px;
+	font-family: "Source Sans Pro",sans-serif;
+}
+.bigshots-counter {
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.5px;
 }
 /*--------------------------------------------*/
 /* Disabling some elements for full width view */
@@ -523,7 +617,9 @@
 	.feature-small:nth-of-type(n+6){
 		border-bottom: 1px solid rgb(229, 229, 229);
 	}
-
+	.block-title {
+    	font-size: 19px;
+	}	
 }
 @media (max-width: 760px){
 	.navbar-nav, #navbar{
