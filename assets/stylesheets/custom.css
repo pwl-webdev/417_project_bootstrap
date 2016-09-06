@@ -149,6 +149,7 @@
 .row{
 	position: relative;
 	top: 60px;
+	overflow: auto;
 }
 .col-md-9{
 	/*border-bottom: 1px solid rgb(229, 229, 229);*/
@@ -544,6 +545,124 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 1.5px;
+}
+/*--------------This week section-------------*/
+.two-column-flex{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.col-left, .col-right{
+	padding: 0 15px;
+}
+.col-right{
+	border-left: 1px solid #E5E5E5;
+}
+.header{
+	display: block;
+	background-color: yellow;
+}
+.btn-label {
+	box-sizing: content-box;
+    position: relative;
+    width: 142px;
+    height: 10px;
+    padding: 10px 0;
+    margin: auto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #FF0500;
+}
+.btn-label span{
+	/*background-color: #FF0500;*/
+    color: #fff;
+    display: block;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 700;
+	font-size: 14px;
+	line-height: 10px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.current-issue time{
+	font-weight: 900;
+	display: block;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 34px;
+	padding-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Source Sans Pro",sans-serif;
+	color: rgb(24,24,24);
+}
+.flex-sm-50 a img{
+	width: 100%;
+}
+.pullquote {
+	margin: 0 0 10px;
+	padding-bottom: 23px;
+	position: relative;
+	padding: 20px 0 30px;
+	margin-bottom: 45px;
+}
+.pullquote a{
+	font-family: "Playfair Display",serif;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: rgb(24,24,24);
+	text-decoration-color: rgb(24,24,24);
+}
+@media (min-width: 1440px){
+	.current-issue{
+		padding: 0 15px 0 60px;
+	}
+}
+@media (min-width: 1200px){
+	.visible-lg{
+		display: block !important;
+	}
+}
+@media (min-width: 992px){
+	.current-issue{
+		padding-top: 136px;
+		position: relative;
+	}
+	.flex-sm-50{
+		padding: 0 20px;
+	}
+	.current-issue header{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	.current-issue time{
+		padding: 15px 0 45px;
+		font-size: 42px;
+		line-height: 42px;
+	}
+	.pullquote{
+		max-width: 100%;
+		margin-bottom: 45px;
+	}
+}
+@media (min-width: 768px){
+	.current-issue{
+		padding-bottom: 30px;
+	}
+	.flex-sm{
+		display: flex;
+		width: 100%;
+	}
+	.flex-sm-50{
+		width: 50%;
+	}
 }
 /*--------------------------------------------*/
 /* Disabling some elements for full width view */
