@@ -547,6 +547,10 @@
     letter-spacing: 1.5px;
 }
 /*--------------This week section-------------*/
+.container{
+	width: 1440px;
+	margin: auto;
+}
 .two-column-flex{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -618,6 +622,176 @@
 	color: rgb(24,24,24);
 	text-decoration-color: rgb(24,24,24);
 }
+p.pullquote::before {
+    top: 0;
+    width: 20px;
+    height: 1px;
+    background-color: #181818;
+}
+p.pullquote::before, p.pullquoute::after{
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+}
+p.pullquote::after{
+    bottom: 0;
+    width: 290px;
+    height: 6px;
+	background-image: url("../images/sprite.png");
+    background-position:  0 -654px;
+    background-size: 290px;
+    background-repeat:  no-repeat;
+}
+.pullquote .byline{
+    font-size: 15px;
+    color: #181818;
+    letter-spacing: 2px;
+    line-height: 16px;
+    margin-top: 15px;
+    display: block;
+    font-family: 'Playfair Display',serif;
+}
+.btn-label::after, .btn-label::before {
+	border-top-color: #FF0500;
+	border-bottom-color: #FF0500;
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.btn-label a::before, .btn-label::before {
+    top: -10px;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.btn-label a::after, .btn-label::after {
+    bottom: -10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.category {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: sans-serif;
+    color: #FF0500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+.seeall_small{
+	max-width: 203px;
+}
+.current-issue .btn-label.subscribe {
+    position: relative;
+    top: -10px;
+    left: -10px;
+    margin-left: 0;
+}
+.btn-label.left a::before {
+    border-left: 0;
+    border-right: 10px solid transparent;
+}
+.btn-label a::before {
+    border-bottom-color: #F1DF10;
+}
+.btn-label a::before, .btn-label label::before {
+    top: -10px;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.btn-label.left a::after {
+    border-right: 0;
+    border-left: 10px solid transparent;
+}
+.btn-label a::after {
+    border-top-color: #F1DF10;
+}
+.btn-label a::after, .btn-label label::after {
+    bottom: -10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.yellow{
+	background-color: #F1DF10;
+}
+.yellow a span{
+	color: rgb(24,24,24);
+}
+.yellow:hover{
+	background-color: rgb(24,24,24);
+}
+.yellow a span:hover{
+	color: white;
+}
+.trial-link {
+    font-size: 26px;
+    line-height: 30px;
+    font-family: sans-serif;
+    position: relative;
+    padding-top: 10px;
+    font-weight: 600;
+	font-family: 'Source Sans Pro',sans-serif;
+}
+.trial-link a{
+	color: #181818;
+	text-decoration: none;
+}
+.trial-link a:hover{
+	opacity: 0.6;
+}
+.highlight {
+    color: #FF0500;
+}
+.gray {
+    color: #9B9B9B;
+}
+.most-popular-header{
+	border-bottom: 4px solid rgb(255,5,0);
+	padding-bottom: 11px;
+}
+.most-popular-header span{
+	font-weight: 700;
+	line-height: 29px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: rgb(24,24,24);
+	font-size: 16px;
+	font-family: 'Source Sans Pro',sans-serif;
+}
+.most-popular-header img{
+	margin: 0 30px;
+}
+.most-popular-item{
+	display: flex;
+	align-items: center;
+	padding: 8px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.most-popular-item a img{
+	width: 135px;
+	float: left;
+}
+.most-popular-item a div{
+	width: 50%;
+	float: left;
+	display: inline-block;
+	padding-left: 18px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: 'Source Sans Pro',sans-serif;
+	color: rgb(24,24,24);
+}
+.most-popular-item a div:hover{
+	text-decoration: underline;
+	text-decoration-color: rgb(24,24,24);
+}
 @media (min-width: 1440px){
 	.current-issue{
 		padding: 0 15px 0 60px;
@@ -662,6 +836,13 @@
 	}
 	.flex-sm-50{
 		width: 50%;
+	}
+}
+@media (min-width: 400px){
+	p.pullquote::after {
+    	width: 315px;
+    	background-position: 0 -710px;
+    	background-size: 315px;
 	}
 }
 /*--------------------------------------------*/
