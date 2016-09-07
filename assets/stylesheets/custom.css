@@ -548,7 +548,7 @@
 }
 /*--------------This week section-------------*/
 .container{
-	width: 1440px;
+	max-width: 1440px;
 	margin: auto;
 }
 .two-column-flex{
@@ -750,6 +750,10 @@ p.pullquote::after{
 .gray {
     color: #9B9B9B;
 }
+.top-stories{
+	max-width: 300px;
+	margin: auto;
+}
 .most-popular-header{
 	border-bottom: 4px solid rgb(255,5,0);
 	padding-bottom: 11px;
@@ -774,7 +778,7 @@ p.pullquote::after{
 	border-bottom: 1px solid #e5e5e5;
 }
 .most-popular-item a img{
-	width: 135px;
+	width: 50%;
 	float: left;
 }
 .most-popular-item a div{
@@ -792,9 +796,13 @@ p.pullquote::after{
 	text-decoration: underline;
 	text-decoration-color: rgb(24,24,24);
 }
+
 @media (min-width: 1440px){
 	.current-issue{
 		padding: 0 15px 0 60px;
+	}
+	.container{
+		width: 1440px;
 	}
 }
 @media (min-width: 1200px){
@@ -825,6 +833,9 @@ p.pullquote::after{
 		max-width: 100%;
 		margin-bottom: 45px;
 	}
+	.container{
+		width: 100%;
+	}
 }
 @media (min-width: 768px){
 	.current-issue{
@@ -836,6 +847,13 @@ p.pullquote::after{
 	}
 	.flex-sm-50{
 		width: 50%;
+	}
+	.container{
+		width: 100%;
+	}
+	.flex-sm-50 {
+    	padding-left: 15px;
+    	padding-right: 15px;
 	}
 }
 @media (min-width: 400px){
@@ -959,6 +977,10 @@ p.pullquote::after{
 	.bigshots{
 		padding: 0;
 	}
+	.seeall, .seeall_small{
+		width: 100%;
+		max-width: 100%;
+	}
 }
 @media (max-width: 768px){
 	.navbar-nav, #navbar{
@@ -1011,5 +1033,19 @@ p.pullquote::after{
 	}
 	.bullet-blue li{
 		margin-top: 0;
+	}
+	.btn-label{
+		left: 37%;
+	}
+	.seeall, .seeall_small{
+		width: 100%;
+		max-width: 100%;
+	}
+	.top-stories{
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+		display: block;
 	}
 }
